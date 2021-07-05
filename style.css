@@ -125,7 +125,11 @@
   color: #834c19;
 
 }
-
+.bx-1 a:hover i{
+  color: #15c2c2;
+  transform: scale(1.2);
+  transition: all 0.2s linear;
+}
 a:active i{
   color:black;
 }
@@ -279,8 +283,8 @@ h6{
    padding-right: 25px;
  }
  .sm li a:hover i{
-   transition: all 0.3s linear;
-   transform: scale(1.2);
+   transition: all 0.2s linear;
+   transform: scale(1.4);
  }
  /* icon color  */
  .fa-facebook-f{
