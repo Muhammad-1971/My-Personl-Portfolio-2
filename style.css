@@ -279,8 +279,10 @@ h6{
    padding-right: 25px;
  }
  .sm li a:hover i{
+   transition: all 0.3s linear;
    transform: scale(1.2);
  }
+ /* icon color  */
  .fa-facebook-f{
    color: #3b5998;
  }
@@ -293,5 +295,22 @@ h6{
 }
 .fa-youtube{
   color: #ff0000;
+}
+.fot{
+  background-color: dimgrey;
+  height: 8vh;
+  color: rgb(7, 2, 2);
+  font-size: 15px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.fot p{
+  text-align: center;
+  padding-top: 3vh;
+  text-shadow: 2px 2px 2px white;
+}
+.brand-name{
+  padding-top: 4vh;
+  font-size: 20px;
 }
 
