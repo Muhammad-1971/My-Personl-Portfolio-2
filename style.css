@@ -125,9 +125,7 @@
   color: #834c19;
 
 }
-a:hover i {
-  color: rgb(8, 209, 216);
-}
+
 a:active i{
   color:black;
 }
