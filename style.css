@@ -1,0 +1,113 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.first-box{
+  padding-top: 5%;
+  display: flex;
+  background-image: url(images/newbackground.jpg);
+  background-repeat: no-repeat;
+}
+.head{
+  padding-left:20%;
+  padding-top: 20%;
+  font-size: 50px;
+  letter-spacing: .1em;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  text-shadow: 5px 10px 4px rgb(180, 155, 12);
+ 
+
+}
+.half-width{
+  width: 50%;
+  padding-bottom: 10%;
+}
+.half-width p{
+  text-transform: uppercase;
+  width:50% ;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 40%;
+  margin-left: 5%;
+  line-height: 1.5em;
+
+}
+.first-box-2{
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(131, 76, 25);
+  padding-top: 50px;
+}
+.first-box-2 img{
+  margin-bottom: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 3px 12px black,
+              -2px -3px 12px rgb(219, 138, 31);
+  
+}
+.box-2-p {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: justify;
+  text-shadow: 1px 2px 2px rgb(61, 60, 60);
+  width:31% ;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.3em;
+  padding-top: 70px;
+  padding-left: 5%;
+  border-left: 8px solid;
+  border-image: linear-gradient(orange,tomato);
+  border-image-slice: 1;
+}
+.second-box-1{
+ display: flex;
+  height: 120vh;
+  width: 100%;
+  background-color: gray;
+}
+
+.flex{
+  display: block;
+  width: 100%;
+  padding-top: 25%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+
+ 
+}
+
+.tog{
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 30vh;
+}
+.bx-1{
+  background-color: white;
+  border: 2px solid rgb(17, 15, 15);
+  width: 100%;
+  height: 30vh;
+}
+.bx-1 img{
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+.tog-2{
+  display: flex;
+  width: 100%;
+  height: 30vh;
+}
+
