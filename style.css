@@ -275,4 +275,40 @@ a:hover i{
   color: #16cece;
   font-size: 55px;
 }
- 
+ .bx-3{
+  
+  height: 15vh;
+  
+  padding-right: 25%;
+  padding-top: 4%;
+ }
+ .bg h2{
+   padding-top: 2%;
+   color: #e28b28;
+   border-style: none;
+ }
+ .bg h2:hover{
+   color: white;
+ }
+ .bg p{
+   color: white;
+   padding-left: 44%;
+   padding-top: 5px;
+   font-weight: 400;
+   font-size: 20px;
+ }
+ .bx-4{
+  margin-top: 20px;
+  height: 20vh;
+  margin-top: vh;
+  padding-right: 25%;
+  padding-top: 4%;
+ }
+ #smi{
+   border-top: 8px solid white;
+   border-color: #16cece;
+   width: 45%;
+   height: 20vh;
+   margin-left: 45%;
+   color: white;
+ }
