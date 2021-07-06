@@ -3,6 +3,77 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.nav{
+  border-bottom: 5px solid #834c19;
+  
+  height: 9vh;
+  width: 100%;
+  background-image: linear-gradient(#834c19, rgb(228, 178, 16));
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.search-bar{
+  margin-left: 40px;
+  margin-top: 15px;
+}
+input{
+  background-color: whitesmoke;
+  border-style: none;
+ box-shadow: inset 5px 4px 6px #e7e7e4,
+             inset -5px -4px 8px #834c19;
+  margin-bottom: 2px;
+  padding: 9px 25px;
+  cursor: pointer;
+  border-left: 5px solid black;
+  border-radius: 45px;
+ 
+}
+button{
+  margin-left: 5px;
+  margin-top: 2px;
+  padding-bottom: 4px;
+  padding: 9px 15px;
+  border-style: none;
+  background-color: #faf8f7;
+  border-radius: 50px;
+  box-shadow: inset 5px 4px 6px #e7e7e4,
+             inset -5px -4px 8px #834c19;
+}
+.nav-li{
+  list-style: none;
+  display: flex;
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+.nav-li li{
+ padding-right: 80px;
+ margin-top: 4%;
+ margin-top: 15px;
+ font-size: 35px;
+ color: whitesmoke;
+ 
+ 
+}
+.search-bar button i:hover{
+  transform: scale(1.4);
+  color: #22fdfd;
+  transition: all 0.2s linear;
+}
+.nav-li li:hover{
+  text-decoration: 5px underline rgb(12, 3, 3) ;
+} 
+.logo{
+  margin-right: 40px;
+  text-shadow: 3px 6px 2px #faf8f7;
+  font-family: 'Festive', cursive;
+  font-size: 40px;
+  font-weight: 600;
+}
+.logo:hover{
+  transition: all .3s ease-in-out;
+  transform: scale(1.08);
+}
 
 .first-box{
   padding-top: 5%;
@@ -16,7 +87,7 @@
   font-size: 50px;
   letter-spacing: .1em;
   font-family: 'Zen Tokyo Zoo', cursive;
-  text-shadow: 5px 10px 4px rgb(180, 155, 12);
+  text-shadow: 5px 10px 4px #b49b0c;
  
 
 }
