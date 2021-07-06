@@ -281,7 +281,7 @@ h6{
   height: 80vh;
   width: 100%;
   display: flex;
-  background-color: rgb(17, 27, 44);
+  background-image: repeating-linear-gradient(#15c2c2,#111b2C,#111b2C,#111b2C,#111b2C,#111B2C,#111B2C,#111B2C,#111B2C,#111B2C,#111B2C,#111b2C);
 }
 .half-width-2x{
   width: 50%;
